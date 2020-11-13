@@ -55,6 +55,6 @@ Take an example here  -
 ```js
 let firstName = "Arnav"
 let lastName = "Gupta"
-let bookName = "Blocks of Javascript, by ${lastName}, ${firstName}"
+let bookName = `Blocks of Javascript, by ${lastName}, ${firstName}`
 console.log(bookName) // "Blocks of Javascript, by Gupta, Arnav"
 ```
